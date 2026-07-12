@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Navigation Lab - Projects</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1>⛏️ Minecraft Navigation Lab</h1>
+  </header>
+
+  <nav class="nav-diamond">
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="index.html">Projects</a>
+    <a href="../gallery/">Gallery</a>
+  </nav>
+
+  <main>
+    <h2>Projects</h2>
+    
+    <section>
+      <h2>Building Blocks of Web Architecture</h2>
+      <p>This is the Projects page, located inside the <code>projects/</code> folder. Notice that this page uses the "Diamond Luxury" navigation style - the third pattern we're experimenting with.</p>
+    </section>
+
+    <section>
+      <h2>Notice the Paths</h2>
+      <p>Because this page is nested inside the <code>projects/</code> folder, the navigation links use different syntax:</p>
+      <ul style="margin-left: 20px;">
+        <li><code>../index.html</code> - goes up one level to reach Home</li>
+        <li><code>../about.html</code> - goes up one level to reach About</li>
+        <li><code>index.html</code> - stays in the current projects folder</li>
+        <li><code>../gallery/</code> - goes up one level, then into gallery</li>
+        <li><code>../css/style.css</code> - CSS link also uses ../ to go up one level</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Available Projects</h2>
+      <p>Navigate to our <a href="project-detail.html">project detail page</a> to see a nested page within this folder. Notice how the path changes when you're linking to another file in the same directory.</p>
+    </section>
+
+    <section>
+      <h2>Flexbox in Action</h2>
+      <p>All of our navigation patterns use Flexbox to create responsive layouts. The "Diamond Luxury" pattern on this page uses <code>justify-content: center</code> to center the navigation items, and the responsive design adapts on smaller screens.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Week 06 Exercise 01: Navigation Lab &copy; 2026 | Minecraft Theme</p>
+  </footer>
+</body>
+</html>

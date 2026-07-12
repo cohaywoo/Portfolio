@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Navigation Lab - Project Detail</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1>⛏️ Minecraft Navigation Lab</h1>
+  </header>
+
+  <nav class="nav-diamond">
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="index.html">Projects</a>
+    <a href="../gallery/">Gallery</a>
+  </nav>
+
+  <main>
+    <h2>Project Detail: Understanding Relative Paths</h2>
+    
+    <section>
+      <h2>Deeply Nested Content</h2>
+      <p>This page is located at <code>projects/project-detail.html</code> - it's inside the projects folder, just like index.html. Both files use the same relative paths to access shared resources.</p>
+    </section>
+
+    <section>
+      <h2>CSS Path Lesson</h2>
+      <p>Notice the CSS link in the HTML head: <code>&lt;link rel="stylesheet" href="../css/style.css"&gt;</code></p>
+      <p>The <code>../</code> means "go up one level from the current directory". From <code>projects/</code>, we go up to the root, then down into the <code>css/</code> folder. This is essential for nested pages to access the shared stylesheet.</p>
+    </section>
+
+    <section>
+      <h2>Navigation Consistency</h2>
+      <p>Even though this is a different page within the projects folder, it uses the same navigation pattern as the projects index. This creates a consistent experience throughout the site.</p>
+    </section>
+
+    <section>
+      <h2>Testing Your Understanding</h2>
+      <p>Try clicking through these links:</p>
+      <ul style="margin-left: 20px;">
+        <li>Click "Home" - you should go to the root index.html</li>
+        <li>Click "About" - you should go to the root about.html</li>
+        <li>Click "Projects" - you should go to projects/index.html</li>
+        <li>Click "Gallery" - you should go to gallery/index.html</li>
+      </ul>
+      <p>If all links work and the styling looks correct, your relative paths are working perfectly!</p>
+    </section>
+
+    <section>
+      <h2>Return to Main Projects Page</h2>
+      <p><a href="index.html">Click here to return to the Projects index</a> - notice this link uses just <code>index.html</code> because we're staying in the same folder.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Week 06 Exercise 01: Navigation Lab &copy; 2026 | Minecraft Theme</p>
+  </footer>
+</body>
+</html>
