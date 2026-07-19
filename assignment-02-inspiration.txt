@@ -1,0 +1,13 @@
+Assignment 02: Your Own Web Inspiration (Extra Credit) - Submission
+
+Website 1: https://www.minecraft.net
+
+I love how the official Minecraft website uses bold, blocky typography and pixel-art inspired design elements that feel playful yet professional. The color palette of greens, blues, and earth tones is calming, and the layout clearly showcases different game editions and features with organized sections that make navigation intuitive.
+
+Website 2: https://www.planetminecraft.com
+
+This site inspires me because it combines a community-driven design with a grid-based layout that organizes projects, skins, and mods in a visually clear way. The dark background with bright accent colors (similar to Minecraft's UI) creates a cohesive aesthetic that feels both modern and thematic.
+
+Website 3: https://www.minecraftforum.net
+
+The Minecraft Forum demonstrates how to create a functional, organized portal while maintaining a consistent visual identity through its blocky design elements and structured navigation. The balance between information density and clean whitespace shows how to prioritize user experience without sacrificing the themed aesthetic.
